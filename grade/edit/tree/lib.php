@@ -818,7 +818,7 @@ class grade_edit_tree_column_name extends grade_edit_tree_column {
     public function get_category_cell($category, $levelclass, $params) {
         global $OUTPUT;
 
-        if (empty($params['name']) || empty($params['level'])) {
+        if (!isset($params['name']) || !isset($params['level'])) {
             throw new Exception('Array key (name or level) missing from 3rd param of grade_edit_tree_column_name::get_category_cell($category, $levelclass, $params)');
         }
         $visibilitytoggle = $OUTPUT->render_from_template('core_grades/grade_category_visibility_toggle', [
