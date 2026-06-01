@@ -27,7 +27,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-var_dump('test2');
+var_dump('test3');
 defined('MOODLE_INTERNAL') || die();
 
 $version  = 2024100700.05;              // 20241007      = branching date YYYYMMDD - do not modify!
