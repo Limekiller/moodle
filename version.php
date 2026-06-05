@@ -29,6 +29,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+var_dump('repo-test');die();
 $version  = 2024042204.05;              // 20240422      = branching date YYYYMMDD - do not modify!
                                         //         RR    = release increments - 00 in DEV branches.
                                         //           .XX = incremental changes.
